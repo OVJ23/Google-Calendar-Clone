@@ -1,0 +1,125 @@
+.calendar-day-component {
+  position: relative;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.day-header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.day-header-gmt {
+  font-size: 0.65rem;
+  padding-right: 0.7rem;
+  border-right: 1px solid #dde3ea;
+  min-width: 4.56rem;
+}
+
+.day-header-timeline {
+  padding-left: 0.5rem;
+}
+
+.day-header-day {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.day-header-date {
+  font-size: 1.5rem;
+}
+
+.day-body {
+  display: flex;
+  flex: 1 1 auto;
+  overflow-y: scroll;
+  align-items: flex-start;
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.day-body.no-scroll {
+  overflow-y: hidden;
+}
+
+.day-body-time-section {
+  padding-right: 0.25rem;
+  min-width: 4rem;
+  text-align: right;
+  height: auto;
+  position: relative;
+}
+
+.day-body-time-group:first-child {
+  visibility: hidden;
+}
+
+.day-body-time-group {
+  position: relative;
+  top: -6px;
+  height: 3rem;
+  font-size: 0.7rem;
+}
+
+.day-body-event-section {
+  display: flex;
+  flex: none;
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.day-body-event-partition-section {
+  flex-shrink: 0;
+  width: 0.5rem;
+  height: 100%;
+}
+
+.day-body-event-partition {
+  width: 0.5rem;
+  border-top: 1px solid #dde3ea;
+  height: 3rem;
+}
+
+.day-body-event-info-main {
+  position: relative;
+  flex-grow: 1;
+  height: 100%;
+  overflow: hidden;
+}
+
+.day-body-event-info-section {
+  height: 100%;
+  position: relative;
+  flex-grow: 1;
+}
+
+.day-body-event-info {
+  border-left: 1px solid #dde3ea;
+  border-top: 1px solid #dde3ea;
+  height: 3rem;
+}
+
+.day-body-event-main {
+  background-color: rgb(3, 155, 229);
+  border-color: rgb(3, 155, 229);
+  border-radius: 0.4rem;
+  color: white;
+  margin-top: 1px;
+  margin-left: -1px;
+  border-left: 1px solid white;
+}
+
+.event-modal-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}

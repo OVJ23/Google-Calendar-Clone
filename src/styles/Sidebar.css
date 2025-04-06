@@ -1,0 +1,103 @@
+.sidebar-create-event-component {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  margin-top: 5rem;
+  padding: 0 1rem;
+  font-size: 0.85rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 4px #c3b8b8;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+.sidebar-create-event-component.sidebar-create-event-component-expanded {
+  width: 8rem;
+}
+
+.sidebar-create-event-component.sidebar-create-event-component-collapsed {
+  width: 3.5rem;
+}
+
+.sidebar-create-event-component:hover {
+  background-color: #eaf3fb;
+}
+
+.sidebar-create-event-main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar-create-icon {
+  position: absolute;
+  width: 1.5rem;
+  height: auto;
+}
+
+.sidebar-create-body {
+  position: absolute;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  transition: transform 0.01s ease;
+}
+
+.sidebar-create-body.sidebar-create-body-expanded {
+  transform: translate(0);
+}
+
+.sidebar-create-body.sidebar-create-body-collapsed {
+  transform: translate(-1000%);
+}
+
+.sidebar-create-dropdown-icon {
+  width: 1.2rem;
+  height: auto;
+}
+
+.sidebar-create-event-dropdown {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem 0rem;
+  background-color: #eceef0;
+  width: 10rem;
+  z-index: 5;
+  border-radius: 0.25rem;
+}
+
+.sidebar-create-event-dropdown-option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.sidebar-create-event-dropdown-option:hover {
+  background-color: #e1e2e3;
+}
+
+.calendar-sidebar-component {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 10rem;
+  padding: 0.5rem 1rem;
+  width: 16rem;
+  transition: transform 0.3s ease;
+}
+
+.calendar-sidebar-component.calendar-sidebar-component-expanded {
+  transform: translate(0);
+}
+
+.calendar-sidebar-component.calendar-sidebar-component-collapsed {
+  transform: translate(-100%);
+}

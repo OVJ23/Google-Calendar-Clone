@@ -1,0 +1,162 @@
+.calendar-navbar-component {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 4rem;
+  padding: 0.5rem 1.2rem;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calendar-navbar-section-1,
+.calendar-navbar-section-2,
+.calendar-navbar-section-3 {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-navbar-section-1 {
+  width: 20%;
+  gap: 1rem;
+}
+
+.calendar-navbar-section-2 {
+  gap: 1rem;
+  position: relative;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.calendar-navbar-section-3 {
+  width: 20%;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.navbar-menu-icon {
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.navbar-menu-img {
+  width: 1.5rem;
+  height: auto;
+  cursor: pointer;
+}
+
+.navbar-menu-icon:hover {
+  background-color: rgba(0, 64, 67, 0.08);
+}
+
+.navbar-title-component,
+.navbar-menu-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title-component img {
+  width: 2.75rem;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.navbar-title-component p {
+  font-size: 1.35rem;
+}
+
+.navbar-today-button {
+  font-size: 0.9rem;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+  background-color: transparent;
+  font-weight: 400;
+  outline: none;
+}
+
+.navbar-today-button:hover {
+  background-color: rgba(0, 64, 67, 0.08);
+  color: initial;
+}
+
+.navbar-navigation-arrows {
+  display: flex;
+}
+
+.navbar-navigation-arrows button {
+  background-color: transparent;
+  outline: none;
+  padding: 0.25rem;
+}
+
+.navbar-navigation-arrows button:hover {
+  background-color: rgba(0, 64, 67, 0.08);
+  border-radius: 50%;
+  color: initial;
+}
+
+.navbar-arrow-previous,
+.navbar-arrow-next {
+  width: 1.5rem;
+  height: auto;
+}
+
+.navbar-date {
+  width: 60%;
+}
+
+.navbar-date p {
+  font-size: 1.35rem;
+  font-weight: 300;
+}
+
+.navbar-search-img {
+  width: 1.5rem;
+  height: auto;
+}
+
+.navbar-menu-dropdown-component {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-dropdown-options {
+  position: absolute;
+  top: 3rem;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem 0rem;
+  background-color: #eceef0;
+  width: 10rem;
+  z-index: 5;
+  border-radius: 0.25rem;
+}
+
+.navbar-dropdown-option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.navbar-dropdown-option:hover {
+  background-color: #e1e2e3;
+}
+
+.navbar-menu-dropdown {
+  padding: 0.6rem 1.5rem;
+  gap: 0.5rem;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+}
+
+.navbar-user-component img {
+  width: 2rem;
+  height: auto;
+  border-radius: 50%;
+}

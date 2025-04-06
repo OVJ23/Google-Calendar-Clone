@@ -1,0 +1,41 @@
+.sidebar-monthwise-tab {
+  width: 100%;
+}
+
+.sidebar-monthwise-tab-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+}
+
+.sidebar-monthwise-header-title {
+  font-size: 1rem;
+  margin-left: 0.6rem;
+}
+
+.sidebar-monthwise-header-navigation {
+  display: flex;
+}
+
+.sidebar-monthwise-header-navigation button {
+  background-color: transparent;
+  outline: none;
+  padding: 0.25rem;
+}
+
+.sidebar-monthwise-header-navigation button:hover {
+  background-color: rgba(0, 64, 67, 0.08);
+  border-radius: 50%;
+  color: initial;
+}
+
+.sidebar-monthwise-arrow-previous,
+.sidebar-monthwise-arrow-next {
+  width: 1.2rem;
+  height: auto;
+}
+
+.sidebar-monthwise-tab-body {
+  width: 100%;
+}
